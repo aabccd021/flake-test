@@ -4,8 +4,8 @@
 
       pkgs = nixpkgs.legacyPackages.x86_64-linux;
       gyatt = pkgs.writeShellScriptBin "gyatt" ''           
-        echo gyatt
-        echo gyatt
+        echo remote gyatt
+        echo remote gyatt
       '';
     in
 
